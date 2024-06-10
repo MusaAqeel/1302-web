@@ -7,6 +7,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    padding-top: 60px; /* Adjust based on navbar height */
+    padding-bottom: 60px; /* Adjust based on footer height */
 }
 
 /* Title styling within navbar */
@@ -46,8 +48,8 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 100px;
 }
-
 
 /* Button styling */
 .button {
