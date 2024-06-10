@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Title styling within navbar */
+.title {
+    color: black;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Button styling in navbar */
+.nav-btn {
+    color: white;
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Logo styling in navbar */
+.navbar-logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* Button styling */
+.button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
+
+/* Button Styles */
+.nav-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
