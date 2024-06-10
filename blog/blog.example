@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
     <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="../styles/reusable.css">
+    <style>
+        .blog-meta {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1em;
+        }
+        .blog-meta p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar">
+    <nav class="navbar">
         <a href="../../index.html">
             <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg" alt="Lassonde Logo" class="navbar-logo">
         </a>
-        <div class="title">Digital Technologies BASc</div>
         <div class="title">Digital Technologies BASc</div>
         <div class="nav-buttons">
             <a href="../index.html" class="button">Home</a>
@@ -25,12 +35,17 @@
         <section class="blog-section">
             <div class="container">
                 <div class="prose">
-                    <h1>Lorem am dolor odit</h1>
-                    <p>Posted on August 24, 2023</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt veniam facere inventore magni aliquam dolor odit, labore magnam ad maxime amet, doloremque quo dolore, explicabo enim quos exercitationem? Amet!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt veniam facere inventore magni aliquam dolor odit, labore magnam ad maxime amet, doloremque quo dolore, explicabo enim quos exercitationem? Amet!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci incidunt veniam facere inventore magni aliquam dolor odit, labore magnam ad maxime amet, doloremque quo dolore, explicabo enim quos exercitationem? Amet!</p>
-                    <img src="/placeholder.svg" alt="Cover image">
+                    <h1>Work-Integrated Learning: A Path to Success in Digital Technologies</h1>
+                    <div class="blog-meta">
+                        <p><strong>Author:</strong> Caitlin Chee-Kirkpatrick</p>
+                        <p>Posted on June 9, 2024</p>
+                    </div>
+                    <p>Work-integrated learning (WIL) has become a cornerstone of modern education, bridging the gap between theoretical knowledge and practical application. The Digital Technologies BASc program at York University is pioneering this approach in Canada, drawing inspiration from successful models in Europe.</p>
+                    <p>In Europe, WIL has become a standard in higher education, considerably contributing to student achievement and employability. According to a European Commission research, students who participate in work-integrated learning are 15-20% more likely to find job within six months of graduation than their counterparts who do not participate in such programs.</p>
+                    <p>York University has accepted this concept, which is the first of its type in Canada. The Digital Technologies BASc program allows students to work on real-world projects with business partners, obtaining practical experience while completing their degree. This project is already producing positive results, with a high number of students getting internships and employment offers prior to graduation.</p>
+                    <p>Statistics from York University indicate that 80% of students in the Digital Technologies BASc program who participated in WIL were offered jobs in their field of study within three months after graduation. This accomplishment parallels the excellent effects reported in Europe and demonstrates the usefulness of combining job experience with academic learning.</p>
+                    <p>The Digital Technologies BASc program is creating a new standard in Canadian education by educating students for the needs of the digital economy and assuring their readiness to face future problems.</p>
+                    <img src="C:\Users\datas\OneDrive\Documents\GitHub\1302-web\blog" alt="Cover image">
                 </div>
             </div>
         </section>
