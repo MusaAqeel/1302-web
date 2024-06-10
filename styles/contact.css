@@ -47,6 +47,7 @@
     background-color: #0056b3;
 }
 
+/* Navbar styling */
 .navbar {
     position: fixed;
     top: 0;
@@ -58,8 +59,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
+
+/* Title styling within navbar */
 .title {
     color: black;
     flex-grow: 1;
@@ -67,19 +69,34 @@
     font-size: 32px;
     font-weight: bold;
 }
-.nav-btn {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #555;
-    border-radius: 5px;
-}
+
+/* Logo styling in navbar */
 .navbar-logo {
     height: 50px;
     margin-right: 20px;
 }
 
+/* Button styling */
+.button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
 
 body {
     display: flex;
