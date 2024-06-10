@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rate My Professor - York University</title>
+    <link rel="stylesheet" href="../styles/reusable.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,13 +14,15 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
         .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        padding-top: 1800px;
+        padding-bottom: 100px;
         }
+        
         .header {
             text-align: center;
             margin-bottom: 20px;
@@ -59,9 +62,23 @@
         .professor-details {
             flex: 1;
         }
+        
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <a href="../../index.html">
+            <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg" alt="Lassonde Logo" class="navbar-logo">
+        </a>
+        <div class="title">Digital Technologies BASc</div>
+        <div class="nav-buttons">
+            <a href="../index.html" class="button">Home</a>
+            <a href="/pages/contact.html" class="button">Contact</a>
+            <a href="/pages/program.html" class="button">Program Info</a>
+            <a href="/blog/yearonereview.html" class="button">Blog</a>
+            <a href="/pages/ratemyprof.html" class="button">Rate My Prof</a>
+        </div>
+    </nav>
     <div class="container">
         <div class="header">
             <img src="https://www.yorku.ca/brand/wp-content/uploads/sites/386/2023/08/UB_Logos_2.png" alt="York University">
@@ -149,5 +166,9 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <p>Contact us at <a href="mailto:hello@dt.com">hello@dt.com</a></p>
+        <!-- <p>&copy; 2024 Digital Technologies BASc. All rights reserved.</p> -->
+    </footer>
 </body>
 </html>

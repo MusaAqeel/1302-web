@@ -12,11 +12,13 @@
             <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg" alt="Lassonde Logo" class="navbar-logo">
         </a>
         <div class="title">Digital Technologies BASc</div>
+        <div class="title">Digital Technologies BASc</div>
         <div class="nav-buttons">
             <a href="../index.html" class="button">Home</a>
             <a href="/pages/contact.html" class="button">Contact</a>
             <a href="/pages/program.html" class="button">Program Info</a>
             <a href="/blog/yearonereview.html" class="button">Blog</a>
+            <a href="/pages/ratemyprof.html" class="button">Rate My Prof</a>
         </div>
     </nav>
     <main class="flex-1">
