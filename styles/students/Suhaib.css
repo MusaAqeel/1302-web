@@ -21,7 +21,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    padding: 10px 20px;
 }
 
 nav a:hover {
@@ -46,13 +46,51 @@ footer {
     padding: 10px 0;
 }
 
+/* Burger menu styles */
+.burger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Responsive design adjustments */
 @media only screen and (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+        background-color: #005f87; /* Slightly darker to differentiate the menu */
+    }
+
     nav {
         flex-direction: column;
     }
 
     nav a {
-        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Adjusting content spacing */
+    .content {
+        padding: 20px;
+        text-align: center;
     }
 }

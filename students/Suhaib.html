@@ -12,7 +12,8 @@
             <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg" alt="Lassonde Logo">
         </a>
         <div>Digital Technologies BASc</div>
-        <div>
+        <button class="burger">&#9776;</button>
+        <div class="nav-links">
             <a href="../index.html">Home</a>
             <a href="/pages/contact.html">Contact</a>
             <a href="/pages/program.html">Program Info</a>
@@ -30,7 +31,7 @@
             <div>Data Analyst</div>
             <div>Dayforce</div>
             <div>
-                <p>I’m a digital technologies student and a data analyst at Dayforce. As a data analyst, my day-to-day work involves collaborating with various departments to create enterprise reports for the company, tracking sales, terminations, revenue, and product sales. I work with all departments based on their needs and also collaborate with the CIO to create and report performance indicator data.</p>
+                <p>I'm a digital technologies student and a data analyst at Dayforce. As a data analyst, my day-to-day work involves collaborating with various departments to create enterprise reports for the company, tracking sales, terminations, revenue, and product sales. I work with all departments based on their needs and also collaborate with the CIO to create and report performance indicator data.</p>
             </div>
             <div>
                 <h3>Education</h3>
@@ -48,5 +49,15 @@
     <footer>
         <p>Contact us at <a href="mailto:hello@dt.com">hello@dt.com</a></p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burger = document.querySelector('.burger');
+            const navLinks = document.querySelector('.nav-links');
+
+            burger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
