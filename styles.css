@@ -197,3 +197,31 @@ body {
         padding: 10px; /* More padding for readability */
     }
 }
+
+/* Burger menu styles */
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav-buttons {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-buttons.active {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}

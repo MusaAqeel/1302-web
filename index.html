@@ -8,8 +8,9 @@
 </head>
 <body>
     <nav class="navbar">
+        <div class="burger">&#9776;</div> <!-- Burger Icon -->
         <a href="../../index.html">
-            <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-YorkU-Logo-RGB.svg" alt="Lassonde Logo" class="navbar-logo">
+            <img src="https://lassonde.yorku.ca/wp-content/themes/lassonde/images/Lassonde-Yorku-Logo-RGB.svg" alt="Lassonde Logo" class="navbar-logo">
         </a>
         <div class="title">Digital Technologies BASc</div>
         <div class="nav-buttons">
@@ -56,12 +57,22 @@
           <div class="job-title">Data Analyst</div>
           <div class="company">Quanser</div>
           <div class="description">I analyze data.</div>
-          <a href="students/Caitlin.html" class="button">Learn More</a>
+          <a href="students/Cait.html" class="button">Learn More</a>
       </div>
     </div>
     <footer class="footer">
         <p>Contact us at <a href="mailto:hello@dt.com" class="email-link">hello@dt.com</a></p>
         <!-- <p>&copy; 2024 Digital Technologies BASc. All rights reserved.</p> -->
     </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-buttons');
+
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    });
+    </script>
 </body>
 </html>
