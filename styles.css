@@ -155,3 +155,45 @@ body {
 .email-link {
     color: #990000;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-buttons a {
+        padding: 10px;
+        margin: 5px; /* Increase spacing for touch targets */
+    }
+
+    .title {
+        font-size: 24px; /* Smaller font size for smaller screens */
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; /* Full width cards on smaller screens */
+        margin: 10px;
+    }
+
+    .footer {
+        font-size: 14px; /* Smaller font size for footer text */
+    }
+}
+
+/* Additional responsive styling for very small devices */
+@media (max-width: 480px) {
+    .nav-buttons a {
+        font-size: 14px; /* Smaller font size for button text */
+    }
+
+    .description {
+        padding: 10px; /* More padding for readability */
+    }
+}
